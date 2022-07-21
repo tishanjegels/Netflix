@@ -1,7 +1,7 @@
 // import movie classes 
 
-import { Movie } from "netflix/classes/movie.js";
-import { MovieList } from "netflix/classes/movie-list.js";
+import { Movie } from "netflixapp/classes/movie.js";
+import { MovieList } from "netflixapp/classes/movie-list.js";
 
 
 
