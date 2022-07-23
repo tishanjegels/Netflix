@@ -18,6 +18,15 @@
 </head>
 
 <body>
+    <header id="NetflixBrand">
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="">
+                    <img src="../images\netflix-name.png" alt="" width="180" height="100">
+                </a>
+            </div>
+        </nav>
+    </header>
 
     <!--User Input-->
     <section id="userLogin">
@@ -32,9 +41,12 @@
             <div class="mb-3">
                 <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
             </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="check">
+                <label class="form-check-label" for="check">Remeber me</label>
+            </div>
 
-            <button id="signIn">Sign In</button>
-            <!--button should be red-->
+            <button type="submit" class="btn btn-primary" id="signIn">Sign In</button>
         </form>
 
     </section>
