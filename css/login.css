@@ -10,7 +10,6 @@ body{
     width: 314px;
     height: 80px;
     padding: 16px 20px 0px;
-    /*background: #E8F0FE;*/
     margin: 40px 540px 240px;
 }
 
@@ -22,7 +21,6 @@ body{
     box-sizing: border-box;
     margin: 0px 0px 90px;
     padding: 60px 68px 40px;
-
 }
 
 .display-6{
@@ -44,5 +42,4 @@ body{
     width: 314px;
     height: 48px;
     text-align: center;
-
 }

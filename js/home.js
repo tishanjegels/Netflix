@@ -1,8 +1,14 @@
+//Linking homepage to login page
+
+//document.getElementById("signIn").onclick = function(){
+  //  location.href ="http://127.0.0.1:5500/pages/home.html"
+//}
+
 // import movie classes 
 
 import { Movie } from "../classes/movie.js";
 import { MovieList } from "../classes/movie-list.js";
-
+ 
 
 
 // Local storage 
