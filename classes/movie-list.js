@@ -18,7 +18,7 @@ export const MovieList = {
             Genre: "Fantasy",
             Actors: "7",
         },
-
+    
         {
             Title: "Cruella",
             Poster: "https://m.media-amazon.com/images/M/MV5BOWI5YTUxOWEtZmRiZS00ZmQxLWE2NzctYTRiODA2NzE1ZjczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
@@ -467,7 +467,7 @@ export const MovieList = {
                 + "ever won. In order to accomplish this monumental task, they need to strengthen the bonds of friendship and sisterhood, "
                 + "and blow away the competition with their amazing aca-magic! With all new friends and old rivals tagging along for "
                 + "the trip, the Bellas can hopefully accomplish their dreams once again.",
-
+    
             CommingSoon: "0",
             Reminder: "4",
             ReleaseDate: "2015",
@@ -845,7 +845,7 @@ export const MovieList = {
                 + "hold the clue to untangling the web of S.P.E.C.T.R.E. As the daughter of the assassin, she understands Bond in a way most "
                 + "others cannot. As Bond ventures towards the heart of S.P.E.C.T.R.E., he learns a chilling connection between him and the "
                 + "enemy he seeks.",
-
+    
             CommingSoon: "0",
             Reminder: "4",
             ReleaseDate: "2015",
