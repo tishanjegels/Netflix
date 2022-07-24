@@ -1,11 +1,13 @@
 // import movie classes 
 
-import { Movie } from "netflixapp/classes/movie.js";
-import { MovieList } from "netflixapp/classes/movie-list.js";
+import { Movie } from "../classes/movie.js";
+import { MovieList } from "../classes/movie-list.js";
 
 
 
 // Local storage 
+
+
 
 
 
@@ -21,7 +23,7 @@ const component = {
             MovieList: MovieList,
             userArray: [],
             username: "",
-            comingSoon: [],
+            commingSoon: [],
             watchlist: [],
 
         }
@@ -43,12 +45,12 @@ const component = {
         // computed property for coming soon movies 
         comingSoon() {
             return this.movieList.filter((movie) => {
-                return movie.comingSoon === true;
+                return movie.commingSoon === true;
             })
         },
         availableMovie() {
             return this.movieList.filter((movie) => {
-                return movie.comingSoon === false;
+                return movie.commingSoon === false;
             })
         }
     }

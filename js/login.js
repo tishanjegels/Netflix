@@ -1,5 +1,12 @@
 //get the input via dom api
 
+document.getElementById("signIn").onclick = function(){
+
+    var userEmail = document.getElementById("inputEmail").value;
+    var userPassword = document.getElementById("inputPassword").value;
+
+    console.log();
+};
 
 
 
