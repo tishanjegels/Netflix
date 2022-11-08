@@ -8,6 +8,8 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
+/*Poster*/
+
 .row_poster {
     width: 100%;
     object-fit: contain;
@@ -43,6 +45,8 @@ body{
     color: white;
     margin-top: 30px;
 }
+
+/*Banner*/
 
 .banner{
     background-image: url(../images/au_rich_hero_blackpanther_1_3c317c85.jpeg);
@@ -96,6 +100,8 @@ body{
     transition: all 0.2s;
 }
 
+/*NavBar*/
+
 .nav{
     position: fixed;
     top: 0;
@@ -124,9 +130,6 @@ body{
     text-align: center;
 }
 
-#watchlist{
-    background-color: red;
-}
 
 .container{
     position: relative;
