@@ -11,7 +11,7 @@ body{
 .row_poster {
     width: 100%;
     object-fit: contain;
-    max-height: 200px;
+    max-height: 250px;
     margin-right: 10px;
     transition: transform 450ms;
 }
@@ -42,4 +42,121 @@ body{
 .row{
     color: white;
     margin-top: 30px;
+}
+
+.banner{
+    background-image: url(../images/au_rich_hero_blackpanther_1_3c317c85.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    object-fit: contain;
+    height: 450px;
+    
+}
+
+.banner_content{
+    margin-left: 30px;
+    padding-top: 250px;
+    height: 190px;
+}
+
+.banner_title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner_descripton{
+    width: 45rem;
+    line-height: 1.3rem;
+    padding-top: 5rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 180px;
+}
+
+.banner_buttons{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner_buttons:hover{
+    color: #000;
+    background-color: red;
+    transition: all 0.2s;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function:ease-in;
+    transition: all 0.5s;
+}
+
+.nav_black{
+    background-color: #111;
+}
+
+#signOut{
+    color: #FFFFFF;
+    font: 16px;
+    background-color: #2a1e1fb8;
+    border-radius: 10px;
+    margin: 24px 0px 12px;
+    padding: 10px;
+    width: 150px;
+    height: 48px;
+    text-align: center;
+}
+
+#watchlist{
+    background-color: red;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.posterbuttons{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    border-radius: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.posterbuttons:hover{
+    color: #000;
+    background-color: red;
+    transition: all 0.2s;
 }

@@ -1,3 +1,16 @@
+const nav= document.getElementById('nav');
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY >= 100) {
+        nav.classList.add('nav_black');
+    }else {
+        nav.classList.remove('nav_black');
+    }
+});
+
+
+
+
 //Linking homepage to login page
 
 //document.getElementById("signIn").onclick = function(){
@@ -38,12 +51,12 @@ const component = {
     methode: {
         logout() {
             localStorage.removeItem();
-            window.location.href = "../login.html"
+            window.location.href = "../pages/login.html"
         },
-        // when the button is click ad movie to watch list 
+        // when the button is click add movie to watch list 
 
         watchBTN() {
-            window.location.href = "../watchlist.html"
+            window.location.href = "../pages/watchlist.html"
         }
     },
     computed: {
